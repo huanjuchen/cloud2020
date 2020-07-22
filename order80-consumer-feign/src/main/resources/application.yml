@@ -1,0 +1,20 @@
+server:
+  port: 80
+eureka:
+  client:
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:7001/eureka,http://localhost:7002/eureka
+
+#设置Feign客户端调用超时时间
+#Feign 集成Ribbon
+ribbon:
+  #  调用最长等待时间
+  ReadTimeout: 6000
+  #  连接最长等待时间
+  ConnectTimeout: 5000
+
+#开启Feign 日志
+logging:
+  level:
+    xyz.huanju.cloud.service.PaymentFeignService: debug

@@ -1,0 +1,25 @@
+server:
+  port: 80
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:7001/eureka/
+    register-with-eureka: false
+spring:
+  application:
+    name: order-hystrix-consumer
+
+
+#设置Feign客户端调用超时时间
+#Feign 集成Ribbon
+ribbon:
+  #  调用最长等待时间
+  ReadTimeout: 5000
+  #  连接最长等待时间
+  ConnectTimeout: 5000
+
+feign:
+  hystrix:
+    enabled: true

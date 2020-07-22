@@ -1,0 +1,18 @@
+
+
+server:
+  port: 7002
+eureka:
+  instance:
+    hostname: eureka7002 #Eureka服务端的实例名称
+  client:
+    register-with-eureka: false #false表示不像注册中心注册自己
+
+    fetch-registry: false #false表示自己就是注册中心
+    service-url:
+      #      注册到另一个Eureka服务器
+      defaultZone: http://127.0.0.1:7001/eureka/
+
+spring:
+  application:
+    name: eureka7002
