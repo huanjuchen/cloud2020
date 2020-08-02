@@ -60,6 +60,11 @@ public class OrderController {
         }
     }
 
+    @GetMapping("/consumer/payment/zipkin")
+    public String paymentZipkin(){
+        return restTemplate.getForObject(PAYMENT_URL+"/payment/zipkin",String.class);
+    }
+
 //    @GetMapping(value = "/consumer/payment/lb")
 //    public String getPaymentLb(){
 //        List<ServiceInstance> instances = discoveryClient.getInstances("PAYMENT-PROVIDER");

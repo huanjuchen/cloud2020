@@ -1,0 +1,14 @@
+server:
+  port: 8833
+spring:
+  application:
+    name: order-consumer-nacos
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+
+#需要调用的服务 URL
+server-url:
+  payment-service: http://payment-provider-nacos

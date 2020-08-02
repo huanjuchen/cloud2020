@@ -1,0 +1,35 @@
+server:
+  port: 8801
+
+
+spring:
+  application:
+    name: stream-provider
+  cloud:
+    stream:
+      binders: #绑定的rabbitMQ信息
+        defaultRabbit: #配置环境
+          type: rabbit
+          environment:
+            spring:
+              rabbitmq:
+                host: 192.168.224.138
+                port: 5672
+                username: huanju
+                password: 123456
+      bindings:
+        output: #配置通道
+          destination: streamTestExchange #要使用的Exchange
+          content-type: application/json #消息类型
+          binder: defaultRabbit #绑定的消息服务
+  #避免健康检查Connection refused异常
+  rabbitmq:
+    host: 192.168.224.138
+    port: 5672
+    username: huanju
+    password: 123456
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka

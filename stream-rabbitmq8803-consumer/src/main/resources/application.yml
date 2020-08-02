@@ -1,0 +1,40 @@
+server:
+  port: 8803
+
+
+spring:
+  application:
+    name: stream-provider
+  cloud:
+    stream:
+      binders: #绑定的rabbitMQ信息
+        defaultRabbit: #配置环境
+          type: rabbit
+          environment:
+            spring:
+              rabbitmq:
+                host: 192.168.224.138
+                port: 5672
+                username: huanju
+                password: 123456
+      bindings:
+        input: #配置接收通道
+          destination: streamTestExchange #要使用的Exchange
+          content-type: application/json #消息类型
+          binder: defaultRabbit #绑定的消息服务
+          group: xfgz #设置分组，即让多个消费者使用同一个队列
+#          group: xfgz2  #不同分组 可以重复消费
+
+  #避免健康检查Connection refused异常
+  rabbitmq:
+    host: 192.168.224.138
+    port: 5672
+    username: huanju
+    password: 123456
+
+
+#注册到Eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka

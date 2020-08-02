@@ -14,11 +14,11 @@ eureka:
       #指向集群其他的服务器
 #      defaultZone: http://127.0.0.1:7002/eureka/
 
-  server:
+#  server:
     #自我保护 关闭
-    enable-self-preservation: false
+#    enable-self-preservation: false
     #心跳包超时时间
-    eviction-interval-timer-in-ms: 2000
+#    eviction-interval-timer-in-ms: 2000
 
 
 

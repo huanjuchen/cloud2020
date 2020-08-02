@@ -12,6 +12,12 @@
     <artifactId>order80-consumer</artifactId>
 
     <dependencies>
+<!--        引入sleuth和zipkin-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
+
         <!--        Eureka Client 自带Ribbon -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

@@ -12,6 +12,13 @@
     <artifactId>payment8001-provider</artifactId>
 
     <dependencies>
+<!--        引入sleuth与zipkin-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
+
+
         <!--        Eureka Client -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

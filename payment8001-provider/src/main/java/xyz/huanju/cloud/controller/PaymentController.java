@@ -96,6 +96,12 @@ public class PaymentController {
     }
 
 
+    @GetMapping("/payment/zipkin")
+    public String paymentZipkin(){
+        return "ZIPKIN zipkin Zipkin";
+    }
+
+
 
 
 }

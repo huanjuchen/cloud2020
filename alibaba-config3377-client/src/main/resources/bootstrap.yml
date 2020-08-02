@@ -1,0 +1,16 @@
+server:
+  port: 3377
+spring:
+  application:
+    name: config-client
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml  #指定配置文件格式
+        group: DEV_GROUP #设置分组
+        namespace: dev-001 #dev命名空间ID

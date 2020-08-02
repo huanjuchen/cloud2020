@@ -1,0 +1,38 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: config-center
+  cloud:
+    #配置中心git配置
+    config:
+      server:
+        git:
+          uri: git@gitee.com:huanjuchen/cloud2020-conifg.git
+          default-label: master
+
+  devtools:
+    add-properties: false
+  #RabbitMQ 配置
+  rabbitmq:
+    host: 192.168.224.138
+    port: 5672
+    username: huanju
+    password: 123456
+
+
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://127.0.0.1:7001/eureka
+
+#暴露bus刷新配置端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'bus-refresh'
+

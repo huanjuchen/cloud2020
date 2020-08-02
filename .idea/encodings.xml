@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/alibaba-config3377-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-config3377-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-order84-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-order84-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-order8833-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-order8833-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-payment9002-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-payment9002-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-payment9003-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-payment9003-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-payment9006-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-payment9006-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-payment9007-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-payment9007-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-sentinel-service8401/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba-sentinel-service8401/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-api-commons/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-api-commons/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-center3344/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-center3344/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-client3355/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-client3355/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-client3366/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-client3366/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka7001-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka7001-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka7002-server/src/main/java" charset="UTF-8" />
@@ -31,6 +53,12 @@
     <file url="file://$PROJECT_DIR$/payment8004-provider-zookeeper/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/payment8006-provider-consul/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/payment8006-provider-consul/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream-rabbitmq8801-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream-rabbitmq8801-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream-rabbitmq8802-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream-rabbitmq8802-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream-rabbitmq8803-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stream-rabbitmq8803-consumer/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
