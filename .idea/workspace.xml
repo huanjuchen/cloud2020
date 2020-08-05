@@ -3,73 +3,52 @@
   <component name="AnalysisUIOptions">
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="635a2e34-a7d3-44b9-88fb-7cb1393071f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/alibaba-config3377-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-config3377-client/src/main/java/xyz/huanju/cloud/ConfigMain3377.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-config3377-client/src/main/java/xyz/huanju/cloud/controller/ConfigClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-config3377-client/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-config3377-client/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-order84-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-order84-consumer/src/main/java/xyz/huanju/cloud/OrderMain84.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-order84-consumer/src/main/java/xyz/huanju/cloud/config/ApplicationContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-order84-consumer/src/main/java/xyz/huanju/cloud/controller/CircleBreakController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-order84-consumer/src/main/java/xyz/huanju/cloud/controller/FeignCircleBreakController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-order84-consumer/src/main/java/xyz/huanju/cloud/feign/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-order84-consumer/src/main/java/xyz/huanju/cloud/feign/fallback/PaymentFallBackService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-order84-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-order8833-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-order8833-consumer/src/main/java/xyz/huanju/cloud/Order8833.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-order8833-consumer/src/main/java/xyz/huanju/cloud/config/Application/ContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-order8833-consumer/src/main/java/xyz/huanju/cloud/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-order8833-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-payment9002-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-payment9002-provider/src/main/java/xyz/huanju/cloud/Payment9002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-payment9002-provider/src/main/java/xyz/huanju/cloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-payment9002-provider/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-payment9003-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-payment9003-provider/src/main/java/xyz/huanju/cloud/Payment9003.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-payment9003-provider/src/main/java/xyz/huanju/cloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-payment9003-provider/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-payment9006-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-payment9006-provider/src/main/java/xyz/huanju/cloud/PaymentMain9006.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-payment9006-provider/src/main/java/xyz/huanju/cloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-payment9006-provider/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-payment9007-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-payment9007-provider/src/main/java/xyz/huanju/cloud/PaymentMain9007.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-payment9007-provider/src/main/java/xyz/huanju/cloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-payment9007-provider/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-sentinel-service8401/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-sentinel-service8401/src/main/java/xyz/huanju/cloud/SentinelServiceMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-sentinel-service8401/src/main/java/xyz/huanju/cloud/controller/FlowLimitController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-sentinel-service8401/src/main/java/xyz/huanju/cloud/controller/RateLimitController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-sentinel-service8401/src/main/java/xyz/huanju/cloud/handler/CustomerBlockHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba-sentinel-service8401/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-client3366/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-client3366/src/main/java/xyz/huanju/cloud/ConfigClientMain3366.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-client3366/src/main/java/xyz/huanju/cloud/controller/ConfigClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-client3366/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-rabbitmq8801-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-rabbitmq8801-provider/src/main/java/xyz/huanju/cloud/StreamMain8801.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-rabbitmq8801-provider/src/main/java/xyz/huanju/cloud/controller/SendMessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-rabbitmq8801-provider/src/main/java/xyz/huanju/cloud/service/MessageProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-rabbitmq8801-provider/src/main/java/xyz/huanju/cloud/service/impl/MessageProviderImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-rabbitmq8801-provider/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-rabbitmq8802-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-rabbitmq8802-consumer/src/main/java/xyz/huanju/cloud/StreamConsumerMain8802.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-rabbitmq8802-consumer/src/main/java/xyz/huanju/cloud/controller/ReceiveMessageListenerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-rabbitmq8802-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-rabbitmq8803-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-rabbitmq8803-consumer/src/main/java/xyz/huanju/cloud/StreamConsumerMain8803.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-rabbitmq8803-consumer/src/main/java/xyz/huanju/cloud/controller/ReceiveMessageListenerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream-rabbitmq8803-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka7001-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka7001-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order80-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order80-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order80-consumer/src/main/java/xyz/huanju/cloud/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order80-consumer/src/main/java/xyz/huanju/cloud/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order80-consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order80-consumer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment8001-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/payment8001-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment8001-provider/src/main/java/xyz/huanju/cloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment8001-provider/src/main/java/xyz/huanju/cloud/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment8001-provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/payment8001-provider/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-account2003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-account2003/src/main/java/xyz/huanju/cloud/AccountMain2003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-account2003/src/main/java/xyz/huanju/cloud/config/DataSourceProxyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-account2003/src/main/java/xyz/huanju/cloud/config/MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-account2003/src/main/java/xyz/huanju/cloud/controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-account2003/src/main/java/xyz/huanju/cloud/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-account2003/src/main/java/xyz/huanju/cloud/entity/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-account2003/src/main/java/xyz/huanju/cloud/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-account2003/src/main/java/xyz/huanju/cloud/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-account2003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-account2003/src/main/resources/file.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-account2003/src/main/resources/mapper/AccountMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-account2003/src/main/resources/registry.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-order2001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-order2001/src/main/java/xyz/huanju/cloud/OrderMain2001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-order2001/src/main/java/xyz/huanju/cloud/config/DataSourceProxyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-order2001/src/main/java/xyz/huanju/cloud/config/MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-order2001/src/main/java/xyz/huanju/cloud/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-order2001/src/main/java/xyz/huanju/cloud/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-order2001/src/main/java/xyz/huanju/cloud/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-order2001/src/main/java/xyz/huanju/cloud/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-order2001/src/main/java/xyz/huanju/cloud/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-order2001/src/main/java/xyz/huanju/cloud/service/StorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-order2001/src/main/java/xyz/huanju/cloud/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-order2001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-order2001/src/main/resources/file.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-order2001/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-order2001/src/main/resources/registry.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-storage2002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-storage2002/src/main/java/xyz/huanju/cloud/StorageMain2002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-storage2002/src/main/java/xyz/huanju/cloud/config/DataSourceProxyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-storage2002/src/main/java/xyz/huanju/cloud/config/MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-storage2002/src/main/java/xyz/huanju/cloud/controller/StorageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-storage2002/src/main/java/xyz/huanju/cloud/dao/StorageDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-storage2002/src/main/java/xyz/huanju/cloud/entity/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-storage2002/src/main/java/xyz/huanju/cloud/service/StorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-storage2002/src/main/java/xyz/huanju/cloud/service/impl/StorageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-storage2002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-storage2002/src/main/resources/file.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-storage2002/src/main/resources/mapper/StorageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-seata-storage2002/src/main/resources/registry.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +74,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:/webDev/apache-maven" />
+        <option name="mavenHome" value="C:\webDev\apache-maven" />
         <option name="userSettingsFile" value="C:\webDev\apache-maven\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -132,7 +111,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/payment8002-provider/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/stream-rabbitmq8003-consumer/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/alibaba-seata-account2003/src/main/java/xyz/huanju/cloud" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -140,7 +119,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -151,10 +130,11 @@
       <recent name="xyz.huanju.cloud.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Git\cloud2020\alibaba-seata-account2003\src\main\java\xyz\huanju\cloud" />
+      <recent name="D:\Git\cloud2020\alibaba-seata-account2003\src\main\resources" />
+      <recent name="D:\Git\cloud2020\alibaba-seata-storage2002\src\main\java\xyz\huanju\cloud" />
+      <recent name="D:\Git\cloud2020\alibaba-seata-storage2002\src\main\resources" />
       <recent name="D:\Git\cloud2020\payment8002-provider\src\main\java\xyz\huanju\cloud" />
-      <recent name="D:\Git\cloud2020\payment8002-provider\src\main\resources" />
-      <recent name="D:\Git\cloud2020\cloud-api-commons\src\main\java\xyz\huanju\cloud\domain" />
-      <recent name="D:\Git\cloud2020\order80-consumer\src\main\java\xyz\huanju\cloud" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -166,16 +146,29 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SentinelServiceMain">
-    <configuration name="ConfigMain3377" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="alibaba-config3377-client" />
+  <component name="RunManager" selected="Spring Boot.OrderMain2001">
+    <configuration name="AccountMain2003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="alibaba-seata-account2003" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="xyz.huanju.cloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="xyz.huanju.cloud.ConfigMain3377" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="xyz.huanju.cloud.AccountMain2003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderMain2001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="alibaba-seata-order2001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.huanju.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="xyz.huanju.cloud.OrderMain2001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -193,32 +186,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentMain9006" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="alibaba-payment9006-provider" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.huanju.cloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="xyz.huanju.cloud.PaymentMain9006" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PaymentMain9007" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="alibaba-payment9007-provider" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.huanju.cloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="xyz.huanju.cloud.PaymentMain9007" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SentinelServiceMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="alibaba-sentinel-service8401" />
       <extension name="coverage">
@@ -232,29 +199,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StorageMain2002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="alibaba-seata-storage2002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.huanju.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="xyz.huanju.cloud.StorageMain2002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Spring Boot.ConfigMain3377" />
-      <item itemvalue="Spring Boot.SentinelServiceMain" />
-      <item itemvalue="Spring Boot.PaymentMain9007" />
-      <item itemvalue="Spring Boot.PaymentMain9006" />
+      <item itemvalue="Spring Boot.AccountMain2003" />
+      <item itemvalue="Spring Boot.OrderMain2001" />
       <item itemvalue="Spring Boot.OrderMain84" />
+      <item itemvalue="Spring Boot.SentinelServiceMain" />
+      <item itemvalue="Spring Boot.StorageMain2002" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.StorageMain2002" />
         <item itemvalue="Spring Boot.SentinelServiceMain" />
         <item itemvalue="Spring Boot.OrderMain84" />
-        <item itemvalue="Spring Boot.PaymentMain9007" />
-        <item itemvalue="Spring Boot.PaymentMain9006" />
-        <item itemvalue="Spring Boot.ConfigMain3377" />
+        <item itemvalue="Spring Boot.OrderMain2001" />
+        <item itemvalue="Spring Boot.AccountMain2003" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
     <option name="myConnectionType" value="NONE" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="WindowStateProjectService">
     <state x="403" y="0" width="744" height="824" key="#Payment9001" timestamp="1595941837438">
@@ -265,18 +249,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1595173658475" />
-    <state x="447" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595941620067">
+    <state x="813" y="168" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1596386211598">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="447" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1595941620067" />
-    <state x="844" y="212" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595438956331">
+    <state x="813" y="168" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1596386211598" />
+    <state x="447" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596481981720">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="844" y="212" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1595438956331" />
-    <state x="904" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1596357244293">
+    <state x="447" y="80" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1596481981720" />
+    <state x="844" y="212" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596388789235">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="904" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1596357244293" />
+    <state x="844" y="212" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1596388789235" />
+    <state x="904" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1596482424400">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="904" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1596482424400" />
     <state x="756" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1595175872941">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -289,38 +277,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596120978384" />
-    <state width="646" height="508" key="GridCell.Tab.0.bottom" timestamp="1596359591282">
+    <state width="1208" height="502" key="GridCell.Tab.0.bottom" timestamp="1596561467661">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="646" height="508" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596359591282" />
-    <state width="646" height="508" key="GridCell.Tab.0.center" timestamp="1596359591281">
+    <state width="1208" height="502" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596561467661" />
+    <state width="1208" height="502" key="GridCell.Tab.0.center" timestamp="1596561467661">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="646" height="508" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596359591281" />
-    <state width="646" height="508" key="GridCell.Tab.0.left" timestamp="1596359591281">
+    <state width="1208" height="502" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596561467661" />
+    <state width="1208" height="502" key="GridCell.Tab.0.left" timestamp="1596561467661">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="646" height="508" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596359591281" />
-    <state width="646" height="508" key="GridCell.Tab.0.right" timestamp="1596359591281">
+    <state width="1208" height="502" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596561467661" />
+    <state width="1208" height="502" key="GridCell.Tab.0.right" timestamp="1596561467661">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="646" height="508" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596359591281" />
-    <state width="646" height="508" key="GridCell.Tab.1.bottom" timestamp="1596359591282">
+    <state width="1208" height="502" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596561467661" />
+    <state width="1208" height="502" key="GridCell.Tab.1.bottom" timestamp="1596561467662">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="646" height="508" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596359591282" />
-    <state width="646" height="508" key="GridCell.Tab.1.center" timestamp="1596359591282">
+    <state width="1208" height="502" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596561467662" />
+    <state width="1208" height="502" key="GridCell.Tab.1.center" timestamp="1596561467662">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="646" height="508" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1596359591282" />
-    <state width="646" height="508" key="GridCell.Tab.1.left" timestamp="1596359591282">
+    <state width="1208" height="502" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1596561467662" />
+    <state width="1208" height="502" key="GridCell.Tab.1.left" timestamp="1596561467662">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="646" height="508" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1596359591282" />
-    <state width="646" height="508" key="GridCell.Tab.1.right" timestamp="1596359591282">
+    <state width="1208" height="502" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1596561467662" />
+    <state width="1208" height="502" key="GridCell.Tab.1.right" timestamp="1596561467662">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="646" height="508" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1596359591282" />
+    <state width="1208" height="502" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1596561467662" />
     <state width="656" height="445" key="GridCell.Tab.2.bottom" timestamp="1595578422594">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -337,10 +325,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="656" height="445" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1595578422594" />
-    <state x="540" y="56" key="SettingsEditor" timestamp="1595433181696">
+    <state x="59" y="113" key="SettingsEditor" timestamp="1596619442415">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="540" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595433181696" />
+    <state x="59" y="113" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596619442415" />
     <state width="683" height="446" key="SwitcherDM" timestamp="1595927708838">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -349,17 +337,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="912" y="189" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1594657124119" />
-    <state x="696" y="145" key="new project wizard" timestamp="1596303732551">
+    <state x="718" y="145" key="new project wizard" timestamp="1596481699667">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="696" y="145" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1596303732551" />
+    <state x="718" y="145" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1596481699667" />
     <state x="741" y="189" key="run.anything.popup" timestamp="1595489779836">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="741" y="189" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1595489779836" />
-    <state x="696" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1596356815892">
+    <state x="696" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1596484657204">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="696" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1596356815892" />
+    <state x="696" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1596484657204" />
   </component>
 </project>
